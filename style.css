@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+    
+}
+body
+{
+    color: #ededed;
+    background-color: #0D0F23;
+
+}
+.header
+{
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo {
+    position: relative;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.nav-bar a {
+    display: inline-block;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    padding: 35px;
+    transition: .3s;
+}
+.nav-bar a:hover{
+    color: #0ef;
+}
+.home {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: #0D0F23;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+}
+.home-content {
+    max-width: 600px;
+}
+.home-content span {
+    font-size: 32px;
+    font-weight: 700;
+    color: #0ef;
+
+}
+.home-content h1 {
+    font-size: 75px;
+    font-weight: 700;
+    margin: -3px 0;
+
+}
+
+
+.btn-box{
+    display: flex;
+    padding: 12px 28px;
+    background-color: aqua;
+    border-radius: 40px;
+    font-size: 30px;
+    margin: 30px 15px 30px 0;
+    color: #0D0F23;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 200; 
+    width: 300px;  
+    display: flex;
+    justify-content: center;
+}
+.btn-box:hover {
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan
+}
+
+.home-img{
+    margin-top: 20px;
+    position: relative;
+    transform: translateY(100px);
+
+}
+.About{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 6rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+}
+/* .about-image */
+.About-text span {
+color: #0ef;
+}
+   
